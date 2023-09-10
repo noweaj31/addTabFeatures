@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tab 메뉴 구현</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="tab-menu">
+        <button data-tab="tab1" class="tab is_active">Tab 1</button>
+        <button data-tab="tab2" class="tab">Tab 2</button>
+        <button data-tab="tab3" class="tab">Tab 3</button>
+      </div>
+      <div id="tab-contents">
+        <div id="tab1-content" class="tab-content is_active">
+          <h2>Tab 1</h2>
+          <div>Tab 1의 contents</div>
+        </div>
+        <div id="tab2-content" class="tab-content">
+          <h2>Tab 2</h2>
+          <div>Tab 2의 contents</div>
+        </div>
+        <div id="tab3-content" class="tab-content">
+          <h2>Tab 3</h2>
+          <div>Tab 3의 contents</div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/tab.js"></script>
+  </body>
+</html>
